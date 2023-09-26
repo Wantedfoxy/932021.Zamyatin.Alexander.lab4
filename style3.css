@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #EDEEF0;
+}
+
+header {
+    position: fixed;
+    padding: 10px 0 10px 15%;
+    background-color: #507299;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: #FFFFFF;
+    color: #A4A4A4;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.header-placeholder {
+    height:52px;
+}
+
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-menu {
+    width: 200px;
+    margin: 10px 20px 0 0;
+}
+
+.left-menu > p {
+    color: #507299;
+    margin: 3px 0 3px 0;
+    padding: 5px 0 5px 0;
+}
+
+.left-menu > p:active {
+    background-color: #E1E5EB;
+}
+
+.post {
+    width: 420px;
+    padding: 18px 15px 15px 15px;
+    margin: 18px 15px 15px 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.post-header {
+    border-bottom:3px solid #d0d0d0;
+    padding: 0 0 10px 10px;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.post-header > b
+{
+    background: #FFFFFF;
+}
+
+.post > p {
+    background-color: #FFFFFF;
+}
+
+.post > img {
+    width: 100%;
+    height: auto;
+}
+
+.post-interaction
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top:3px solid #D0D0D0;
+    word-spacing: 300px;
+    background: #FFFFFF;
+}
+
+.post-interaction > a
+{
+    text-decoration: none;
+    color: #2E5473;
+    background: #FFFFFF;
+}
+.right-topics-container {
+    width: 130px;
+    position: fixed;
+    top: 55px;
+    right: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-block
+{
+    width: 130px;
+    padding: 20px 20px 15px 20px;
+    margin: 10px 0 20px 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    border-radius: 10px;
+}
+
+.right-block > p
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.right-block-header
+{
+    width: 120px;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.right-block-header > b
+{
+    background: #FFFFFF;
+}
